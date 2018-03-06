@@ -52,5 +52,7 @@ write_headers
 # The standard blobs
 write_makefiles "$MY_DIR"/rr-proprietary-blobs.txt
 
+write_makefiles "$MY_DIR"/rr-proprietary-blobs-vendorimg.txt
+
 # We are done!
 write_footers
